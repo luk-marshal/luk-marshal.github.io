@@ -1,1 +1,33 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>luk-marshal | github</title>
+    <style>
+      .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .baner {
+        min-width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <picture class="content">
+      <source
+        srcset="typo.gif 2x, typo.jpg 2x, typo-short.gif 1x, typo-short.jpg 1x"
+      />
+      <source src="typo.jpg" />
+      <img
+        srcset="typo.gif 2x, typo.jpg 2x, typo-short.gif 1x, typo-short.jpg 1x"
+        src="typo.jpg"
+        alt="Comming soon"
+        class="baner"
+      />
+    </picture>
+  </body>
+</html>
